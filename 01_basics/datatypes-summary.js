@@ -28,3 +28,21 @@ let myObj={
  const myFunction=function(){
     console.log("Hello World");
  }
+
+ //Stack (primitive) we get copy ,Heap (Non-primitive)=>we get refrence
+
+ let myYoutubename="MInal's World";
+ anothername=myYoutubename;
+
+ console.log(anothername);
+
+ let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+ }
+ let userTwo=userOne
+
+ userTwo.email="Minal@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
