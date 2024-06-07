@@ -23,6 +23,6 @@ const anotherString=getname.slice(-8,4);
 console.log(anotherString);
 
 const newStringOne="  Mohak  "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
