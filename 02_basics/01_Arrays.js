@@ -9,6 +9,8 @@ const myArr=[0,1,2,3,4];
 // myArr.push(6)
 // myArr.push(9)
 // myArr.push()
+myArr.pop()
+myArr.unshift(9)
 // console.log(myArr);
 
 // myArr.shift()
